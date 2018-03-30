@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>YC</authors>
+    <owners>YC</owners>
+    <title>NPOI.ToEnumerable</title>
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>從iworkbook取資料到 IEunmerable&gt;T&lt;</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>npoi, enumerable</tags>
+  </metadata>
+</package>

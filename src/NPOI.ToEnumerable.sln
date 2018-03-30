@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPOI.ToEnumerable", "NPOI.ToEnumerable\NPOI.ToEnumerable.csproj", "{35BCD13D-31AD-4E6E-AEAE-22BF9F9ED765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPOI.ToEnumerable.Test", "NPOI.ToEnumerable.Test\NPOI.ToEnumerable.Test.csproj", "{6FB3241D-31B4-49E2-869F-1D6CA1BC2866}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35BCD13D-31AD-4E6E-AEAE-22BF9F9ED765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BCD13D-31AD-4E6E-AEAE-22BF9F9ED765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BCD13D-31AD-4E6E-AEAE-22BF9F9ED765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BCD13D-31AD-4E6E-AEAE-22BF9F9ED765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FB3241D-31B4-49E2-869F-1D6CA1BC2866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FB3241D-31B4-49E2-869F-1D6CA1BC2866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FB3241D-31B4-49E2-869F-1D6CA1BC2866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FB3241D-31B4-49E2-869F-1D6CA1BC2866}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19D6EB67-40FE-4225-B731-09472D2C24E1}
+	EndGlobalSection
+EndGlobal
