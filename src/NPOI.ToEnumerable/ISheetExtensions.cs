@@ -26,7 +26,11 @@ namespace NPOI.ToEnumerable
 			while (enumerator.MoveNext() == true)
 			{
 				var row = enumerator.Current as IRow;
-				yield return row.ToItem<T>(actions);
+				var item = row.ToItem<T>(actions);
+				if (item != null)
+				{
+					yield return item;
+				}
 			}
 		}
 
@@ -63,7 +67,7 @@ namespace NPOI.ToEnumerable
 
 			var setter = Expression.Lambda<Action<T, ICell>>(
 				Expression.Assign(member, callExp),
-				arg1, 
+				arg1,
 				arg2);
 
 			return setter.Compile();

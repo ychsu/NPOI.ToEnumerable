@@ -15,6 +15,10 @@ namespace NPOI.ToEnumerable
 			T item = new T();
 			foreach (var action in actions)
 			{
+				if (row.Cells.Count <= action.Key)
+				{
+					return null;
+				}
 				var cell = row.Cells[action.Key];
 				action.Value.Invoke(item, cell);
 			}
