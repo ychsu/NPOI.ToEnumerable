@@ -9,7 +9,7 @@
     <licenseUrl>https://github.com/ychsu/NPOI.ToEnumerable/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/ychsu/NPOI.ToEnumerable</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>從iworkbook取資料到 IEunmerable&gt;T&lt;</description>
+    <description>從iworkbook取資料到 IEunmerable&lt;T&gt;</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags>npoi, enumerable</tags>
