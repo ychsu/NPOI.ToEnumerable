@@ -59,7 +59,7 @@ namespace NPOI.ToEnumerable
 			var type = typeof(T);
 			var value = GetValue(cell);
 			var parse = type.GetMethod("Parse", new Type[] { typeof(string) });
-			var str = value.ToString();
+			var str = value?.ToString();
 			if (type == typeof(string))
 			{
 				return (T)(object)str;
